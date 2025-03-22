@@ -6,7 +6,7 @@ For XDU WebEngineer coures assignment
 
 **team leader**:
 
-孙韬(<https://github.com/holyguacamoleCoder>)
+0. 孙韬(<https://github.com/holyguacamoleCoder>)
 
 **team member**:
 
