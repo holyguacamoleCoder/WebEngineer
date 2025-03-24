@@ -1,0 +1,14 @@
+{
+  "routes": [
+    { "path": "/home", "component": "Home" },
+    { "path": "/student", "component": "StudentManager" },
+    { "path": "/teacher", "component": "TeacherManager" },
+    { "path": "/course/application", "component": "CourseApplication" },
+    { "path": "/course/examination", "component": "CourseExamination" },
+    { "path": "/teacher/course", "component": "TeacherCourse" },
+    { "path": "/student/course", "component": "StudentCourse" },
+    { "path": "/teacher/course/detail", "component": "TeacherCourseDetail" },
+    { "path": "/teaching/arrangement", "component": "TeachingArrrangement" },
+    { "path": "/select/course/center", "component": "SelectCourseCenter" }
+  ]
+}
