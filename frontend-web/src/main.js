@@ -5,7 +5,6 @@ import element from './utils/element-ui'
 import '@/css/common.css'
 import router  from './router'
 import vuex from './store'
-// import { getUserInfo } from '@/utils/storage.js'
 
 Vue.config.productionTip = false
 
