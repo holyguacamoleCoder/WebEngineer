@@ -46,8 +46,8 @@ export default {
       width: 30%;
       height: 100%;
       border-radius: 10px;
-      background-image: url('../assets/book.jpg');
-      background-repeat: round;
+      background: no-repeat center/100% url('../assets/book.jpg') #fff;
+     
   }
   .right {
       display: inline-block;

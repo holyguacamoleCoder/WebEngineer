@@ -1,36 +1,36 @@
-import requst from '@/utils/request.js'
+import request from '@/utils/request.js'
 
 //查询学院信息
 export const getDepartmentInfo = () => {
-    return requst.get('/departments')
+    return request.get('/departments')
 }
 
 // 查询教师信息
 export const getTeachersInfo = (queryTeacherParam) => {
-    return requst.post('/teachers', queryTeacherParam)
+    return request.post('/teachers', queryTeacherParam)
 }
 
 // 新增一条教师信息
 export const insertTeacherInfo = (form) => {
-    return requst.post('/teacher', form)
+    return request.post('/teacher', form)
 }   
 
 //根据id删除教师信息
 export const deleteTeacherInfo = (teacherId) => {
-    return requst.delete('/teachers/' + teacherId)
+    return request.delete('/teachers/' + teacherId)
 }
 
 //根据id查询教师信息
 export const getTeacherInfoById = (teacherId) => {
-    return requst.get('/get/teacher?teacherId=' + teacherId)
+    return request.get('/get/teacher?teacherId=' + teacherId)
 }
 
 //修改教师信息（后端根据id进行修改）
 export const updateTeacherInfoById = (form) => {
-    return requst.put('/modify/teacher', form)
+    return request.put('/modify/teacher', form)
 }
 
 //获取所有教师的信息
 export const getAllTeacher = () => {
-    return requst.get('/get/teachers')
+    return request.get('/get/teachers')
 }
