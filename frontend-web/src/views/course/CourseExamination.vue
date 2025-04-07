@@ -33,7 +33,7 @@ import CourseAppliactionItem from '@/components/CourseApplicationItem.vue'
 import { 
   getWaitExamination, 
   getAlreadyExamination
-} from '@/api/course-examination/course-examination.js'
+} from '@/api/course/course-examination.js'
 export default {
   data() {
       return {
