@@ -1,3 +1,4 @@
+-- ===================== 系统基础表 =====================
 create table administrator
 (
     administrator_id int auto_increment
@@ -8,6 +9,7 @@ create table administrator
 )
     comment '管理员（教务处）';
 
+-- ===================== 审批流程相关表 =====================
 create table course_examination
 (
     course_examination_id int auto_increment
@@ -74,6 +76,7 @@ create table student
 )
     comment '学生信息表';
 
+-- ===================== 关联关系表 =====================
 create table courses_students
 (
     courses_students_id int auto_increment
@@ -106,6 +109,7 @@ create table teacher
 )
     comment '教师信息表';
 
+-- ===================== 课程核心表 =====================
 create table course
 (
     course_id        int auto_increment
@@ -139,6 +143,7 @@ create index course_status_idx
 create index course_teacher_idx
     on course (teacher_id);
 
+-- ===================== 业务操作表 =====================
 create table course_application
 (
     course_application_id int auto_increment
